@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306" height="78" viewBox="0 0 306 78">
+  <defs>
+    <filter id="Base" x="0" y="0" width="78" height="78" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.051"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="Base-2" x="4.5" y="1.5" width="69" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.085" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3142c6"/>
+      <stop offset="1" stop-color="#af61d1"/>
+    </linearGradient>
+  </defs>
+  <g id="Logo" transform="translate(9 5)">
+    <text id="Foundation_Startup_l" data-name="Foundation Startup l" transform="translate(75 23)" fill="rgba(43,41,45,0.6)" font-size="20" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="0">Foundation</tspan><tspan y="0" font-family="WorkSans-Regular, Work Sans" font-weight="400"></tspan><tspan font-size="18" font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="25">Startup landing template</tspan></tspan></text>
+    <g id="Icon">
+      <g id="Base-3" data-name="Base">
+        <g transform="matrix(1, 0, 0, 1, -9, -5)" filter="url(#Base)">
+          <rect id="Base-4" data-name="Base" width="60" height="60" rx="14" transform="translate(9 5)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -9, -5)" filter="url(#Base-2)" style="mix-blend-mode: overlay;isolation: isolate">
+          <rect id="Base-5" data-name="Base" width="60" height="60" rx="14" transform="translate(9 5)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <path id="Icon-2" data-name="Icon" d="M29.829,40.451H23.481a1.268,1.268,0,0,1-1.27-1.264V26.546a5.073,5.073,0,0,0-5.078-5.056H15.867a5.073,5.073,0,0,0-5.079,5.056V39.188a1.268,1.268,0,0,1-1.267,1.264H3.173A1.268,1.268,0,0,1,1.9,39.188V20.226a1.268,1.268,0,0,1,1.27-1.264A7.618,7.618,0,0,1,9.52,22.351a7.616,7.616,0,0,1,6.347-3.389h1.266a7.615,7.615,0,0,1,6.348,3.39,7.616,7.616,0,0,1,6.348-3.39A1.268,1.268,0,0,1,31.1,20.226V39.188A1.268,1.268,0,0,1,29.829,40.451Zm-1.27-6.125-3.809,2.95v.646h3.809Zm-24.116,0v3.6H8.251v-.644Zm0-6.321V31.14a1.366,1.366,0,0,1,.145.1l3.664,2.839V30.958Zm24.116,0L24.75,30.957v3.118l3.663-2.838a1.242,1.242,0,0,1,.146-.1ZM4.442,21.646v3.173a1.366,1.366,0,0,1,.145.1l3.664,2.839V26.546A5.055,5.055,0,0,0,4.442,21.646Zm24.116-.03a5.262,5.262,0,0,0-1.308.572,5.077,5.077,0,0,0-2.5,4.358v1.208l3.663-2.838a1.37,1.37,0,0,1,.146-.1Zm-5.078-1.983h0a7.638,7.638,0,0,0-5.712-2.567H15.233A7.636,7.636,0,0,0,9.52,19.633a7.638,7.638,0,0,0-5.712-2.567V15.8a.637.637,0,0,1,.64-.632h24.1a.637.637,0,0,1,.64.632v1.264a7.64,7.64,0,0,0-5.711,2.567Zm8.249-6.36H1.269A1.268,1.268,0,0,1,0,12.009V1.265A1.268,1.268,0,0,1,1.269,0H6.98A1.269,1.269,0,0,1,8.25,1.265V5.056h3.173V1.265A1.269,1.269,0,0,1,12.693,0h7.615a1.268,1.268,0,0,1,1.269,1.265V5.056H24.75V1.265A1.268,1.268,0,0,1,26.019,0H31.73A1.269,1.269,0,0,1,33,1.265V12.009A1.269,1.269,0,0,1,31.73,13.273Z" transform="translate(14 10)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
